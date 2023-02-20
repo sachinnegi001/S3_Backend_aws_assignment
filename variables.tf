@@ -1,5 +1,5 @@
-variable "Tags" {
-    type = map(any)
-    description = "tags to apply."
-}
 
+variable "bucket-tags" {
+    type = list(string)
+  
+}
