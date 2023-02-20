@@ -1,4 +1,4 @@
 output "BucketCreation" {
-    value= [for i in var.bucket: i]
+    value= aws_s3_bucket.sachinBucket.id
     description = "S3 buckets Name"
 }
